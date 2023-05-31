@@ -37,11 +37,11 @@ In this notebook, the different steps of the model are explained and illustrated
 
 ### Sensitivity analysis of the model to the various parameters
 
-This notebook recreate the sensitivity analysis shown in the paper (the original version was implemented in matlab). This "one at the time" sensitivity analysis helps getting an insight of the importance of the different parameters. It was also very useful to verify that the model is working correctly.
+This notebook recreate the sensitivity analysis shown in the paper (the original version was implemented in matlab). This sensitivity analysis is a simple one-at-a-time visual inspection. It helps getting an insight of the importance of the different parameters. It was also very useful to verify that the model is working correctly.
 
 ### Comparison with the generic power model from the pywakelibrary
 
-A generic wind turbine power curve model can also be found in the pywake library. The approach of this alternative model is slightly different from ours but we find that the difference between the two models is very small.
+A generic wind turbine power curve model can also be found in the pywake library. In this notebook the two models have been compared for a number of different configurations. This comparison showed that the pywake model is slightly different from ours but the difference between the two models is very small.
 
 ### Citation: 
 
