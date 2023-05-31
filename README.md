@@ -26,17 +26,22 @@ plt.grid()
 ```
 
 <p align="center">
-<img src="https://github.com/gabrielkasmi/dsfrance/blob/main/figs/flowchart.png" width=700px>
+<img src="https://github.com/YvesMSaintDrenan/WT_PowerCurveModel/tree/master/fig/ExampleWTPowerCurve.png" width=700px>
 </p>
 
 In comparison to the first version of the code issued at during the publication, the python code has been improved to gain robustness and readibility. In addition, different notebooks illustrating the proposed approach has been prepared.
 
 ### Step-by-step explication of the modelling approach
 
+In this notebook, the different steps of the model are explained and illustrated. This notebook contains exactly the code available in the library "GenericWindTurbinePowerCurve.py" but in a sequential form to make the different steps of the calculation clear. Finally, the last section of this notebook illustrates the use of the final function <i>GenericWindTurbinePowerCurve</i> that is contain in the main python code.
+
 ### Sensitivity analysis of the model to the various parameters
+
+This notebook recreate the sensitivity analysis shown in the paper (the original version was implemented in matlab). This "one at the time" sensitivity analysis helps getting an insight of the importance of the different parameters. It was also very useful to verify that the model is working correctly.
 
 ### Comparison with the generic power model from the pywakelibrary
 
+A generic wind turbine power curve model can also be found in the pywake library. The approach of this alternative model is slightly different from ours but we find that the difference between the two models is very small.
 
 ### Citation: 
 
