@@ -31,17 +31,17 @@ plt.grid()
 
 In comparison to the first version of the code issued at during the publication, the python code has been improved to gain robustness and readibility. In addition, different notebooks illustrating the proposed approach has been prepared.
 
-### 1. [Step-by-step explication of the modelling approach](https://github.com/YvesMSaintDrenan/WT_PowerCurveModel/blob/master/GenericWindTurbinePowerCurve_1_ModellingSteps.ipynb)
+### [1. Step-by-step explication of the modelling approach](https://github.com/YvesMSaintDrenan/WT_PowerCurveModel/blob/master/GenericWindTurbinePowerCurve_1_ModellingSteps.ipynb)
 
 In this notebook, the different steps of the model are explained and illustrated. This notebook contains exactly the code available in the library "GenericWindTurbinePowerCurve.py" but in a sequential form to make the different steps of the calculation clear. Finally, the last section of this notebook illustrates the use of the final function <i>GenericWindTurbinePowerCurve</i> that is contain in the main python code.
 
-### Sensitivity analysis of the model to the various parameters
+### [2. Sensitivity analysis of the model to the various parameters](https://github.com/YvesMSaintDrenan/WT_PowerCurveModel/blob/master/GenericWindTurbinePowerCurve_2_SensitivityAnalysis.ipynb)
 
 This notebook recreate the sensitivity analysis shown in the paper (the original version was implemented in matlab). This sensitivity analysis is a simple one-at-a-time visual inspection. It helps getting an insight of the importance of the different parameters. It was also very useful to verify that the model is working correctly.
 
-### Comparison with the generic power model from the pywakelibrary
+### [3. Comparison with the generic power model from the pywakelibrary](https://github.com/YvesMSaintDrenan/WT_PowerCurveModel/blob/master/GenericWindTurbinePowerCurve_3_ComparisonPyWake.ipynb)
 
-A generic wind turbine power curve model can also be found in the pywake library (https://github.com/DTUWindEnergy/PyWake). In this notebook the two models have been compared for a number of different configurations. This comparison showed that the pywake model is slightly different from ours but the difference between the two models is very small.
+A generic wind turbine power curve model can also be found in the [pywake library](https://github.com/DTUWindEnergy/PyWake). In this notebook the two models have been compared for a number of different configurations. This comparison showed that the pywake model is slightly different from ours but the difference between the two models is very small.
 
 ### Citation: 
 
