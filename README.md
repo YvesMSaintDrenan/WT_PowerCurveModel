@@ -26,7 +26,7 @@ plt.grid()
 ```
 
 <p align="center">
-<img src="https://github.com/YvesMSaintDrenan/WT_PowerCurveModel/tree/master/fig/ExampleWTPowerCurve.png" width=700px>
+<img src="https://github.com/YvesMSaintDrenan/WT_PowerCurveModel/blob/master/fig/ExampleWTPowerCurve.png" width=600px>
 </p>
 
 In comparison to the first version of the code issued at during the publication, the python code has been improved to gain robustness and readibility. In addition, different notebooks illustrating the proposed approach has been prepared.
