@@ -1,4 +1,4 @@
-# Generic Wind Turbine Power Curve
+# A Generic Wind Turbine Power Curve
 
 A wind turbine’s power curve relates its power production to the wind speed it experiences. The typical shape of a power curve is well known and has been studied extensively; however, the power curves of individual turbine models can vary widely from one another. This is due to both the technical features of the turbine (power density, cut-in and cut-out speeds, limits on rotational speed and aerodynamic efficiency), and environmental factors (turbulence intensity, air density, wind shear and wind veer). Data on individual power curves are often proprietary and only available through commercial databases. We therefore develop an open-source model which can generate the power curve of any turbine, adapted to the specific conditions of any site. This can employ one of six parametric models advanced in the literature, and accounts for the eleven variables mentioned above.
 
