@@ -43,6 +43,12 @@ This notebook recreate the sensitivity analysis shown in the paper (the original
 
 A generic wind turbine power curve model can also be found in the [pywake library](https://github.com/DTUWindEnergy/PyWake). In this notebook the two models have been compared for a number of different configurations. This comparison showed that the pywake model is slightly different from ours but the difference between the two models is very small.
 
+### [4. Validation of the model]()
+
+Work in progress
+
+### [5. Example of calculation of a power curve for month averaged wind speed values](https://github.com/YvesMSaintDrenan/WT_PowerCurveModel/blob/master/GenericWindTurbinePowerCurve_5_MonthlyWindSpeed.ipynb)
+
 ### Citation: 
 
 ```
